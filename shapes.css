@@ -1,0 +1,33 @@
+*{
+    margin: 15px;
+    padding: 0px;
+    /* display: inline-block; This will change the display property of head tag from none to display, thus the title tag text will be displayed  */
+}
+.square{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+.circle{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50%;
+}
+.uptriangle{
+    width: 0;
+    height: 0;
+    border-bottom: solid green 100px;
+    border-right: solid  50px transparent;
+    border-left: solid  50px transparent;
+}
+.pacman{
+    width: 0;
+    height: 0;
+    border-radius: 50% 50%;
+    border-bottom: solid yellow 50px;
+    border-right: solid  50px transparent;
+    border-left: solid  50px yellow;
+    border-top: solid 50px yellow;
+
+}
